@@ -7,6 +7,7 @@ import otak from "../assets/image/otak kanan.jpg";
 import contenDashboard from "../assets/image/contendance-dashboard.jpg";
 import findjob from "../assets/image/findjobid.jpg";
 import moviein from "../assets/image/movie-in.jpg";
+import vuemeal from "../assets/image/vuemeal.png";
 import website from "../assets/image/this-website.jpg";
 
 const ProjectsCard = ({ data }) => {
@@ -40,6 +41,7 @@ const ProjectsCard = ({ data }) => {
             Flutter
           </span>
           <a
+            target="_blank"
             href="https://play.google.com/store/apps/details?id=com.contendance"
             className="inline-block bg-white text-primary border rounded-md px-3 py-1 text-sm font-semibold mr-2 mb-2 hover:bg-primary hover:text-white"
           >
@@ -70,6 +72,7 @@ const ProjectsCard = ({ data }) => {
             React Js
           </span>
           <a
+            target="_blank"
             href="https://bobis.netlify.app/"
             className="inline-block bg-white text-primary border rounded-md px-3 py-1 text-sm font-semibold mr-2 mb-2 hover:bg-primary hover:text-white"
           >
@@ -102,6 +105,7 @@ const ProjectsCard = ({ data }) => {
             Laravel
           </span>
           <a
+            target="_blank"
             href="https://github.com/ghifarirmdn/absen-magang"
             className="inline-block bg-white text-primary border rounded-md px-3 py-1 text-sm font-semibold mr-2 mb-2 hover:bg-primary hover:text-white"
           >
@@ -135,6 +139,7 @@ const ProjectsCard = ({ data }) => {
             React Js
           </span>
           <a
+            target="_blank"
             href="https://github.com/ContendanceApp/contendance-dashboard"
             className="inline-block bg-white text-primary border rounded-md px-3 py-1 text-sm font-semibold mr-2 mb-2 hover:bg-primary hover:text-white"
           >
@@ -167,6 +172,7 @@ const ProjectsCard = ({ data }) => {
             React Js
           </span>
           <a
+            target="_blank"
             href="https://findjobid.netlify.app/"
             className="inline-block bg-white text-primary border rounded-md px-3 py-1 text-sm font-semibold mr-2 mb-2 hover:bg-primary hover:text-white"
           >
@@ -199,7 +205,40 @@ const ProjectsCard = ({ data }) => {
             React Js
           </span>
           <a
+            target="_blank"
             href="https://themoviein.netlify.app/"
+            className="inline-block bg-white text-primary border rounded-md px-3 py-1 text-sm font-semibold mr-2 mb-2 hover:bg-primary hover:text-white"
+          >
+            Visit Link
+          </a>
+        </div>
+      </div>
+      <div
+        className="rounded shadow-xl my-10 xl:w-3/4 xl:h-7/8 hover:transition hover:ease-in-out hover:scale-110"
+        data-aos="fade-left"
+        data-aos-duration="3000"
+      >
+        <div className="flex justify-center mt-6">
+          <img
+            className="w-4/5 xl:w-3/4 rounded-md h-80"
+            src={vuemeal}
+            alt="findjobid"
+          />
+        </div>
+        <div className="px-6 py-4">
+          <div className="font-bold text-xl mb-2">Vuemeal</div>
+          <p className="text-gray-700 text-base">
+            Vuemeal is a website that lists food from all over the world.
+            Features of this website are search by food name and food letter.
+          </p>
+        </div>
+        <div className="px-6 pt-4 pb-2 flex justify-between">
+          <span className="inline-block bg-primary rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+            React Js
+          </span>
+          <a
+            target="_blank"
+            href="https://vuemeal.vercel.app/"
             className="inline-block bg-white text-primary border rounded-md px-3 py-1 text-sm font-semibold mr-2 mb-2 hover:bg-primary hover:text-white"
           >
             Visit Link

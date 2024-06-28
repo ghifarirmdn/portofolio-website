@@ -1,7 +1,6 @@
 import { React, useState, useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import projects from "../data/Projects";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
